@@ -1,0 +1,65 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri May  9 11:24:13 2025
+
+@author: islem
+"""
+
+body {
+   margin: 0;
+   background-color: #0d0d0d;
+   color: #fff;
+   font-family: 'Arial', sans-serif;
+   line-height: 1.6;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   padding: 1em 2em;
+   background-color: #111;
+}
+
+.logo .butterfly {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #ccc;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+main {
+  padding: 2em;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.gallery img {
+   width: 300px;
+   height: auto;
+   border: 2px solid #444;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #111;
+  color: #777;
+}
